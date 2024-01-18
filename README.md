@@ -1,4 +1,5 @@
 
+
   
 
 # Buss Simulation
@@ -11,17 +12,23 @@
 
 -  [Projektbeskrivning](#projektbeskrivning)
 
--  [Funktioner](#funktioner)
+-  [Funktionalitet](#funktionalitet)
 
--  [Hur man installerar](#how-to-install)
+-  [Kodkomponenter](#kodkomponenter)
 
--  [Hur man använder](#how-to-use)
+-  [Pseudokod](#pseudokod)
 
--  [Hur man testar](#how-to-test)
+-  [Aktivitetsdiagram](#aktivitetsdiagram)
 
--  [Teknologi som använts](#technologies-used)
+-  [Installation](#installation)
 
--  [Licens](#license)
+-  [Användning](#användning)
+
+-  [Tester](#tester)
+
+-  [Teknologi](#teknologi)
+
+-  [Licens](#licens)
 
 -  [Kontakt](#kontakt)
 
@@ -64,33 +71,8 @@
 
 #### 6) Avsluta programmet
 
-## Hur man installerar
-
-1. Se till att du har Python 3.x installerat på din dator.
-
-2. Klona det här förrådet till din lokala dator med följande kommando:
-
-```git clone https://github.com/Sirak-K/bus_project.git```
-
   
-
-- Om du föredrar det kan du också ladda ner ZIP-filen för förvaret genom att klicka på knappen "Code" på den här sidan och sedan välja "Ladda ner ZIP."
-
-  
-
-## Hur man använder
-
-1. För att köra busssimuleringsmjukvaran i en terminal, skriv "python Project_Buss.py" och tryck på Enter.
-
-2. Välj ett alternativ från menyn.
-
-3. För att avsluta programmet, välj menyalternativ #7 i huvudmenyn.
-
-  
-
 ## Pseudokod
-
-  
 
 **Pseudokod för att Sortera Passagerare baserat på Namn:**
 
@@ -151,13 +133,14 @@
 
 ## Aktivitetsdiagram
 
-  1.  **Huvudaktiviteter:**
-    -   Starta bussprogrammet
-    -   Lägg till passagerare
-    -   Ta bort passagerare
-    -   Visa & sortera passagerarinformation
-    -   Beräkna medelåldern
-    -   Beräkna total ålder
+ -  **Huvudaktiviteter:**
+ - -   Starta bussprogrammet
+       -   Lägg till passagerare
+       -   Ta bort passagerare
+       -   Visa & sortera passagerarinformation
+       -   Beräkna medelåldern
+       -   Beräkna total ålder
+
     
 2.  **Sekvenser:**
     -   Starta bussprogrammet -> Välj alternativ (loop)
@@ -176,23 +159,39 @@
 ![Projekt_Buss_Kodkomponenter](https://github.com/Sirak-K/bus_project/assets/122515678/43952297-4934-4c82-ab44-c6b37b5c596f)
 
 
-## Testning
+
+## Installation
+
+1. Se till att du har Python 3.x installerat på din dator.
+
+2. Klona det här förrådet till din lokala dator med följande kommando:
+
+```git clone https://github.com/Sirak-K/bus_project.git```
+
+
+- Om du föredrar det kan du också ladda ner ZIP-filen för förvaret genom att klicka på knappen "Code" på den här sidan och sedan välja "Ladda ner ZIP."
+
+  
+## Användning
+
+1. För att köra busssimuleringsmjukvaran i en terminal, skriv "python Project_Buss.py" och tryck på Enter.
+
+2. Välj ett alternativ från menyn.
+
+3. För att avsluta programmet, välj menyalternativ #7 i huvudmenyn.
+
+
+## Tester
 ![Projekt_Buss_Testning](https://github.com/Sirak-K/bus_project/assets/122515678/ff7243e0-000c-426e-9595-50bf4614873e)
 
 
-## Teknik som använts
-
+## Teknologi
 - Programmeringsspråk: Python
-
-- Python-modul för att sortera passagerare: `from operator import attrgetter`
-
-  
+- Python-modul för sortering: `from operator import attrgetter`
 
 ## Licens
 
 Detta projekt är licensierat under MIT-licensen.
-
-  
 
 ## Kontakt
 
