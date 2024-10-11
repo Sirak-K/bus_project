@@ -4,7 +4,8 @@
 
 # Buss Simulation
 
-  
+  ![Bus Simulation](https://github.com/user-attachments/assets/00e620b6-9eed-4a9c-8691-6b0d1ce0347c)
+
 
 # Innehållsförteckning
 
